@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { UserAuth } from '../context/AuthContext';
+// import { UserAuth } from '../context/AuthContext';
 
 const Signin = () => {
   return (
@@ -14,7 +14,7 @@ const Signin = () => {
           </Link>
         </p>
       </div>
-      <form onSubmit={handleSubmit}>
+      <form>
         <div className='flex flex-col py-2'>
           <label className='py-2 font-medium'>Email Address</label>
           <input className='border p-3' type='email' />
